@@ -129,7 +129,12 @@
   close_toggle();
   $(window).resize(close_toggle);
 
-
+  /* Nivo Lightbox
+  ========================================================*/   
+   $('.lightbox').nivoLightbox({
+    effect: 'fadeScale',
+    keyboardNav: true,
+  });
 
 }(jQuery));
 
